@@ -1,5 +1,7 @@
 # Credit Risk Classification
 
+![Challenge-Image](./assets/images/12-5-challenge-image.png)
+
 ## Overview of the Analysis
 
 This markdown describes the analysis completed for the machine learning models used in this repository. This includes:
@@ -16,9 +18,9 @@ This markdown describes the analysis completed for the machine learning models u
 ## Purpose
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The purpose of this analysis is to create highly profficient Linear Regression classification models that can properly predict wether a loan has a `0`/healthy loan status or a `1`/high-risk loan status. The second purpose of this analysis is to see whether the original data or data resampled/randomly oversampled using `imblearn.over_sampling.RandomOverSampler` would yield better predictions from the `sklearn.linear_model.LogisticRegression` classification model. 
 
-![Data](./assets/images/resampled_data.png)
-![Data](./assets/images/classifier_original.png)
-![Data](./assets/images/classifier_resampled.png)
+![Resampled DataData](./assets/images/resampled_data.png)
+![Original Classifier](./assets/images/classifier_original.png)
+![Resampeld Clasifier](./assets/images/classifier_resampled.png)
 
 ## Data
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The data used included one-hot encoded labels `(0,1)` for the status of the loan. The loans that were healthy had a loan status of `0` and the loans that were high-risk had a loan status of `1`. The features that were used to predict the loan status included the loan size, interest rate, borrower income, debt to income, number of accounts, derogatory marks and total debt. Each of these features was recorded with numeric values as seen below.
